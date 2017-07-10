@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression Suite" verbose="1" >
+<listeners>
+	<!--<listener class-name="main.java.com.fpa.commonLib.RetryListener"/>-->
+</listeners>
+<test name="Automation execution">
+	<classes>
+		<class name="com.tr.cortexUi.NewComms.TRMC.HBA.Resil.FpaLoginRunner"/>
+		<class name="com.tr.cortexUi.NewComms.TRMC.LBA.SS.FpaLoginRunner"/>
+	</classes>
+</test>
+</suite>
